@@ -7,7 +7,7 @@ namespace FindRel
 {
     public class DataBase
     {
-        private string connectionString { get; } = @"Data Source=DESKTOP-8SMT9BF\SQLEXPRESS;Initial Catalog=ProductsDB;Integrated Security=True;TrustServerCertificate=Yes";//TrustServerCertificate=Yes
+        private string connectionString { get; } = @"Data Source=DESKTOP-8SMT9BF\SQLEXPRESS;Initial Catalog=ProductsDBtest;Integrated Security=True;TrustServerCertificate=Yes";//;TrustServerCertificate=Yes
         public SqlConnection sqlConnection { get; set; }
 
         public DataBase()
